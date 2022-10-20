@@ -9,7 +9,7 @@ const Intro = () => {
       <div className={styles.article}>
         <h1>embed RK1K2bCg4J8</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa deserunt dignissimos enim ?</p>
-        <a href={videoLink} target="_blank">{videoLink}</a>
+        <a href={videoLink}>{videoLink}</a>
       </div>
       <div className={styles.video}>
         <div className={styles.video__item}></div>

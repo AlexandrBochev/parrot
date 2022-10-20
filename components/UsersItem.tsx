@@ -1,6 +1,4 @@
-import Image from 'next/image';
 import styles from '../styles/UsersItem.module.css'
-import bubble from '../public/bubble.png';
 
 const UsersItem = () => {
   return (
