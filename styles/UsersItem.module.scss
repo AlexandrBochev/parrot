@@ -1,0 +1,13 @@
+$blueColor: #C6C9F8;
+
+@media (min-width: 768px) {
+  .users_item {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr );
+  }
+  
+  .users_item div {
+    padding: 7px;
+    border: 1px solid $blueColor;
+  }
+}
