@@ -1,14 +1,15 @@
 .users_header {
-  display: none;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
 }
 
-@media (min-width: 768px) {
+.users_header div {
+  padding: 7px;
+  border: 1px solid #C6C9F8;
+}
+
+@media (max-width: 768px) {
   .users_header {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-  }
-  .users_header div {
-    padding: 7px;
-    border: 1px solid #C6C9F8;
+    display: none;
   }
 }/*# sourceMappingURL=UsersHeader.module.css.map */

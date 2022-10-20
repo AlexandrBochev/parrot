@@ -20,7 +20,6 @@ $blueColor: #C6C9F8;
   height: 60px;
   margin: -17px auto;
   border-radius: 50%;
-  overflow: inherit;
   background: url(../public/face.jpg);
   background-size: cover;
   background-position: center;
@@ -95,6 +94,14 @@ $blueColor: #C6C9F8;
   }
 }
 
-@media (max-width: 540px) {
-  
+@media (max-width: 480px) {
+  .btn {
+    display: none;
+  }
+
+  .grid6 {
+    background: url(../public/bubble.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
